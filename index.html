@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyDeveloperJourney</title>
+  </head>
+
+  <body>
+    <header>
+      <nav style="display: flex; justify-content: space-between">
+        <div>
+          <a href="index.html">MyDeveloperJourney</a>
+        </div>
+
+        <div style="display: flex; gap: 30px">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#learning">Learning Goals</a>
+          <a href="#registration">Registration</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div>
+          <a href="details.html">Details Page →</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <div>
+          <h3>HELLO, I'M</h3>
+
+          <h1>Khalid Hasan</h1>
+
+          <h2>Future MERN Stack Developer</h2>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis
+            sunt natus veniam explicabo. Cum nulla beatae quam rerum nesciunt
+            assumenda reiciendis expedita incidu
+          </p>
+
+          <div>
+            <a href="#skills">View My Learning Goals ↓</a>
+            <a href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <div>
+          <p>
+            Learning<br />
+            Building<br />
+            Growing
+          </p>
+        </div>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
+
+        <div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              quos facere similique inventore dignissimos suscipit ducimus,
+              atque ullam saepe voluptates.
+            </p>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus debitis ipsa beatae, qui sequi officia consectetur
+              blanditiis
+            </p>
+
+            <a href="https://github.com/khalidhtoha"> Visit My GitHub → </a>
+          </div>
+
+          <div>
+            <div>
+              <p>
+                <strong>Name</strong><br />
+                Khalid Hasan
+              </p>
+            </div>
+
+            <div>
+              <p>
+                <strong>Education</strong><br />
+                Diploma in Computer Science
+              </p>
+            </div>
+
+            <div>
+              <p>
+                <strong>Location</strong><br />
+                Dhaka, Bangladesh
+              </p>
+            </div>
+
+            <div>
+              <p>
+                <strong>Website</strong><br />
+                <a href="https://example.com"> Live </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>My Current Skills</h2>
+
+        <div>
+          <div>
+            <h3>Skills I Already Know</h3>
+
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript (Basics)</li>
+              <li>Git &amp; GitHub</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Skills I Want to Learn</h3>
+
+            <ol>
+              <li>React</li>
+              <li>Next.js</li>
+              <li>Node.js</li>
+              <li>MongoDB</li>
+              <li>System Design</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section id="learning">
+        <h2>My Learning Schedule</h2>
+
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Topic</th>
+              <th>Study Time</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Saturday</td>
+              <td>HTML</td>
+              <td>2 Hours</td>
+              <td>Learn basic structure and tags</td>
+            </tr>
+
+            <tr>
+              <td>Sunday</td>
+              <td>CSS</td>
+              <td>2 Hours</td>
+              <td>Layouts and styling</td>
+            </tr>
+
+            <tr>
+              <td>Monday</td>
+              <td>JavaScript</td>
+              <td>3 Hours</td>
+              <td>Practice problems</td>
+            </tr>
+
+            <tr>
+              <td>Tuesday</td>
+              <td>React</td>
+              <td>2 Hours</td>
+              <td>Components and state</td>
+            </tr>
+
+            <tr>
+              <td>Wednesday</td>
+              <td>Project Work</td>
+              <td>2 Hours</td>
+              <td>Build small projects</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="registration">
+        <h2>Course Registration</h2>
+
+        <form>
+          <div>
+            <label for="name">Full Name</label><br />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+            />
+          </div>
+          <br />
+
+          <div>
+            <label for="email">Email</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@email.com"
+            />
+          </div>
+          <br />
+
+          <div>
+            <label for="phone">Phone Number</label><br />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="01724663437"
+            />
+          </div>
+          <br />
+
+          <div>
+            <label for="date">Date of Birth</label>
+            <input type="date" id="date" name="date" />
+          </div>
+          <br />
+
+          <label>Gender</label><br />
+          <input type="radio" name="gender" value="male" />
+          Male <br />
+          <input type="radio" name="gender" value="female" />
+          Female <br />
+          <br />
+
+          <div>
+            <label for="level">Current Skill Level</label>
+
+            <select id="level" name="level">
+              <option value="beginner">Beginner</option>
+              <option value="intermediate">Intermediate</option>
+              <option value="advanced">Advanced</option>
+            </select>
+          </div>
+          <br />
+
+          <fieldset>
+            <legend>Interested Topics</legend>
+
+            <label>
+              <input type="checkbox" name="topics" value="html" />
+              HTML
+            </label>
+
+            <label>
+              <input type="checkbox" name="topics" value="css" />
+              CSS
+            </label>
+
+            <label>
+              <input type="checkbox" name="topics" value="javascript" />
+              JavaScript
+            </label>
+
+            <label>
+              <input type="checkbox" name="topics" value="react" />
+              React
+            </label>
+          </fieldset>
+          <br />
+          <div>
+            <label for="reason">
+              Why do you want to learn web development </label
+            ><br />
+
+            <textarea
+              rows="4"
+              cols="35"
+              id="reason"
+              name="reason"
+              placeholder="Write your message here..."
+            ></textarea>
+          </div>
+
+          <button type="submit">Register Now</button>
+        </form>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+
+        <div>
+          <div>
+            <p>
+              <strong>Email</strong><br />
+              khalidhtoha@email.com
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <strong>Phone</strong><br />
+              +880 1755309950
+            </p>
+          </div>
+
+          <div>
+            <span>GitHub</span>
+            <p>
+              <strong>GitHub</strong><br />
+              github.com/khalidhtoha
+            </p>
+          </div>
+
+          <div>
+            <span>in</span>
+            <p>
+              <strong>LinkedIn</strong><br />
+              linkedin.com/in/khalidhtoha
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <strong>MyDeveloperJourney</strong>
+
+        <p>© 2026 Khalid Hasan. All rights reserved.</p>
+
+        <nav style="display: flex; gap: 20px">
+          <a href="index.html">Home</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
